@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url('calculator.jpg');
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px ;
+}
+.heading{
+    padding: 0 10px;
+    background-color:aqua;
+    border-radius: 5px;
+}
+.container{
+    text-align: center;
+}
+.row{
+    padding: 8px 0;
+}
+.button{
+    padding: 10px 10px;
+    align-items: center;
+    width: 40px;
+    margin: 0 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.inputbar{
+    margin: 10px 0px;
+    padding: 4px 2px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: honeydew;
+}
+.clear{
+    width:100px;
+    background-color:turquoise;
+}
+.digit{
+    background-color: cornsilk;
+}
+.operations{
+    background-color:fuchsia;
+}
